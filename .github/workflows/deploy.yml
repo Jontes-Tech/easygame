@@ -11,7 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Edgeserver Upload
-        uses: lvkdotsh/edgeserver-action@v0.0.34
+        uses: lvkdotsh/edgeserver-action@master
         with:
           app_id: "89661921279610880"
           server: https://api.edgeserver.io
