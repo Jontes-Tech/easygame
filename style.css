@@ -1,0 +1,46 @@
+body {
+    background-color: #2a3d45;
+    color: #fff;
+    margin: 5%;
+    font-family: 'Jetbrains Mono', "Courier New", Courier, monospace;
+    font-size: xx-large;
+}
+
+h1 {
+    font-weight: 800;
+}
+p {
+    font-weight: normal;
+}
+
+a {
+    padding: 20px;
+    background-color: #c17c74;
+    border-radius: 10px;
+    color: #ddc9b4;
+    cursor: pointer;
+}
+
+/* jetbrains-mono-regular - latin */
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('./fonts/jetbrains-mono-v13-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/jetbrains-mono-v13-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* jetbrains-mono-800 - latin */
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+        url('./fonts/jetbrains-mono-v13-latin-800.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/jetbrains-mono-v13-latin-800.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}

@@ -1,0 +1,1 @@
+please do not download the certificate.pdf before completing the game
